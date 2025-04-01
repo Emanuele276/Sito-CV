@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cv di Emanuele</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <i class="fas fa-envelope">
 </head>
 
 <style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
     .resume-container {
         background: red;
         width: 1500px;
@@ -17,43 +23,58 @@
         border: 2px solid black;
         box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
         text-align: center;
-        
+
     }
 
-    .h1 {
-         font-family: Verdana, Geneva, Tahoma, sans-serif;
-         text-align: center;
-         
-    }
+    h1 {
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        }
 
+
+    p{
+        font-size: large;
+    }
+    
+    
     ul {
-        list-style-type: none;
-        padding: 0;
         display: flex;
-
+        list-style: none;
+        padding: 1em;
+        align-items: center;
+        justify-content: space-around;
+        background-image:url("croce-vetta-monte-amiata-toscana_Hvq.jpg") ;
     }
 
     li {
-        margin-right: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        justify-content: end;
+        font-size: larger;
+        
     }
-    
-    
+
 </style>
+
 <body>
     <div class="resume-container">
-    <h1>Sito CV</h1>
-    <p>Benvenuti sul mio sito</p>
-    <img src="europass.jpg" alt="logo" width="100" height="auto" /></div>
-    <div id="resume-container"></div>
-    <h1>La pagina di Emanuele</h1>
-    <ul id="Menù">
-    <li><a href="Home">Home</a></li>
-    <li><a href="Chi Sono">Chi Sono</a></li>
-    <li><a href="Lingue">Lingue</a></li>
-    <li><a href="Esperienze">Esperienze</a></li>
-    <li><a href="Carosello">Carosello</a></li>
+        <h1>Sito CV</h1>
+        <p>Benvenuti sul mio sito</p>
+        <img src="europass.jpg" alt="logo" width="130" height="auto" />
+    </div>
+
+    
+    <ul class="menu">
+        <h1>La pagina di Emanuele</h1>
+        <li><a href="Home">Home</a></li>
+        <li><a href="Chi Sono">Chi Sono</a></li>
+        <li><a href="Lingue">Lingue</a></li>
+        <li><a href="Esperienze">Esperienze</a></li>
+        <li><a href="Carosello">Carosello</a></li>
+        <button class="hover-button">Clicca qui</button>
     </ul>
+
     <script src="script.js"></script>
-    <script src="styles.css" ></script>
 </body>
+
 </html>
